@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         let result = rust_hello_world()
-        println("I called Rust and got \(result)")
+        print("I called Rust and got \(result)")
         return true
     }
 
